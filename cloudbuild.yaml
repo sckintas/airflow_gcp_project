@@ -1,5 +1,5 @@
 steps:
-  # Step 1: Set up authentication with GCP using the service account key
+  # Step 1: Set up authentication with GCP using the service account keys
   - name: 'gcr.io/cloud-builders/gcloud'
     entrypoint: 'bash'
     args:
