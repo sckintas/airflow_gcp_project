@@ -26,7 +26,7 @@ steps:
   - name: 'gcr.io/cloud-builders/gsutil'
     args: ['-m', 'cp', '-r', 'dbt_project/*', 'gs://<composer-bucket-name>/data/dbt_project/']
 
-  # Step 5: Trigger the dbt models in Cloud Composer
+  # Step 5: Trigger the dbt models in Cloud Composers
   - name: 'gcr.io/cloud-builders/gcloud'
     args:
       - 'composer'
