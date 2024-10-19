@@ -1,0 +1,66 @@
+[0m17:30:26.311812 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c368ffe7cb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c3690339eb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c368fbd9640>]}
+
+
+============================== 17:30:26.316044 | 2fc36a01-d3a8-4e86-ab43-481437660286 ==============================
+[0m17:30:26.316044 [info ] [MainThread]: Running with dbt=1.8.7
+[0m17:30:26.317565 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/mehmet_cengiz_etl/.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init dbt', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m17:30:26.415729 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse logging event dictionary. Failed to parse dir field: expected string or bytes-like object, got 'PosixPath'.. Dictionary: {'dir': PosixPath('/home/mehmet_cengiz_etl/.dbt')}
+[0m17:30:26.416773 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m17:30:48.296091 [error] [MainThread]: Encountered an error:
+
+[0m17:30:48.301578 [error] [MainThread]: Traceback (most recent call last):
+  File "/home/mehmet_cengiz_etl/.local/lib/python3.12/site-packages/dbt/cli/requires.py", line 138, in wrapper
+    result, success = func(*args, **kwargs)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mehmet_cengiz_etl/.local/lib/python3.12/site-packages/dbt/cli/requires.py", line 101, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mehmet_cengiz_etl/.local/lib/python3.12/site-packages/dbt/cli/main.py", line 470, in init
+    results = task.run()
+              ^^^^^^^^^^
+  File "/home/mehmet_cengiz_etl/.local/lib/python3.12/site-packages/dbt/task/init.py", line 325, in run
+    project_name = self.get_valid_project_name()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mehmet_cengiz_etl/.local/lib/python3.12/site-packages/dbt/task/init.py", line 279, in get_valid_project_name
+    name = click.prompt("Enter a name for your project (letters, digits, underscore)")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/click/termui.py", line 164, in prompt
+    value = prompt_func(prompt)
+            ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/click/termui.py", line 147, in prompt_func
+    raise Abort() from None
+click.exceptions.Abort
+
+[0m17:30:48.303913 [debug] [MainThread]: Resource report: {"command_name": "init", "command_wall_clock_time": 22.056839, "process_user_time": 1.793413, "process_kernel_time": 0.162859, "process_mem_max_rss": "87240", "process_in_blocks": "592", "process_out_blocks": "8", "command_success": false}
+[0m17:30:48.305466 [debug] [MainThread]: Command `dbt init` failed at 17:30:48.305255 after 22.06 seconds
+[0m17:30:48.306239 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c368fa9b980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c368f4f97c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c368f486ba0>]}
+[0m17:30:48.307000 [debug] [MainThread]: Flushing usage events
+[0m17:30:56.890501 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7afd72c465a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7afd71640bf0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7afd71cee360>]}
+
+
+============================== 17:30:56.894607 | 52929d7e-541b-4d27-a159-4a3e507028cd ==============================
+[0m17:30:56.894607 [info ] [MainThread]: Running with dbt=1.8.7
+[0m17:30:56.895909 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': '/home/mehmet_cengiz_etl/.dbt', 'log_path': 'logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt init dbt-project', 'send_anonymous_usage_stats': 'True'}
+[0m17:31:12.761178 [debug] [MainThread]: Starter project path: /home/mehmet_cengiz_etl/.local/lib/python3.12/site-packages/dbt/include/starter_project
+[0m17:31:12.766703 [info ] [MainThread]: 
+Your new dbt project "dbt_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m17:31:12.767801 [info ] [MainThread]: Setting up your profile.
+[0m17:32:26.196906 [info ] [MainThread]: Profile dbt_project written to /home/mehmet_cengiz_etl/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m17:32:26.199443 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 89.370766, "process_user_time": 2.703282, "process_kernel_time": 0.453844, "process_mem_max_rss": "204164", "process_out_blocks": "88", "process_in_blocks": "0"}
+[0m17:32:26.200682 [debug] [MainThread]: Command `dbt init` succeeded at 17:32:26.200456 after 89.37 seconds
+[0m17:32:26.201496 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7afd7137bbc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7afd60daab70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7afd610a4ad0>]}
+[0m17:32:26.202330 [debug] [MainThread]: Flushing usage events

@@ -1,0 +1,175 @@
+version: 2
+
+sources:
+  - name: snow_gcp
+    description: "Source dataset containing raw tables ingested from Snowflake into BigQuery."
+    database: "{{ target.database }}"
+    schema: snow_gcp
+    tables:
+      - name: EXPANDED_ASSEMBLY_PROCESS
+        description: "Raw data table containing information about the assembly process."
+        columns:
+          - name: ASSEMBLY_ID
+            tests:
+              - not_null
+          - name: FLASK_ID
+          - name: CORE_ID
+          - name: STAGE
+          - name: PROCESS
+          - name: ARRIVAL_TIME
+          - name: DEPARTURE_TIME
+          - name: ESTIMATED_TIME
+
+      - name: EXPANDED_CORE_PREPARATION
+        description: "Raw data table containing information about core preparation."
+        columns:
+          - name: CORE_ID
+            tests:
+              - not_null
+          - name: STAGE
+          - name: PROCESS
+          - name: CHEMICALS_USED
+          - name: ARRIVAL_TIME
+          - name: DEPARTURE_TIME
+          - name: ESTIMATED_TIME
+
+      - name: EXPANDED_FLASK_PREPARATION
+        description: "Raw data table containing information about flask preparation."
+        columns:
+          - name: FLASK_ID
+            tests:
+              - not_null
+          - name: STAGE
+          - name: PROCESS
+          - name: CHEMICALS_USED
+          - name: ARRIVAL_TIME
+          - name: DEPARTURE_TIME
+          - name: ESTIMATED_TIME
+
+      - name: EXPANDED_LADLE_PREPARATION
+        description: "Raw data table containing information about ladle preparation."
+        columns:
+          - name: LADLE_ID
+            tests:
+              - not_null
+          - name: MELT_ID
+          - name: STAGE
+          - name: PROCESS
+          - name: CHEMICALS_USED
+          - name: ARRIVAL_TIME
+          - name: DEPARTURE_TIME
+          - name: ESTIMATED_TIME
+
+      - name: EXPANDED_POURING_PROCESS
+        description: "Raw data table containing information about pouring processes."
+        columns:
+          - name: POURING_ID
+            tests:
+              - not_null
+          - name: ASSEMBLY_ID
+          - name: LADLE_ID
+          - name: MELT_ID
+          - name: PROCESS
+          - name: ARRIVAL_TIME
+          - name: DEPARTURE_TIME
+          - name: ESTIMATED_TIME
+
+      - name: EXPANDED_TRANSPORT_TRACKING
+        description: "Raw data table containing transport tracking information."
+        columns:
+          - name: EQUIPMENT_ID
+            tests:
+              - not_null
+          - name: EQUIPMENT_TYPE
+          - name: SOURCE_STAGE
+          - name: DESTINATION_STAGE
+          - name: TRANSPORT_MECHANISM
+          - name: TRANSPORT_START_TIME
+          - name: TRANSPORT_END_TIME
+
+models:
+  - name: stg_expanded_assembly_process
+    description: "Staging model for processing assembly process data."
+    columns:
+      - name: assembly_id
+        tests:
+          - not_null
+      - name: flask_id
+      - name: core_id
+      - name: stage
+      - name: process
+      - name: first_arrival_time
+      - name: last_departure_time
+      - name: total_estimated_time
+      - name: total_duration_minutes
+
+  - name: stg_expanded_core_preparation
+    description: "Staging model for processing core preparation data."
+    columns:
+      - name: core_id
+        tests:
+          - not_null
+      - name: stage
+      - name: process
+      - name: chemicals_used
+      - name: first_arrival_time
+      - name: last_departure_time
+      - name: total_estimated_time
+      - name: total_duration_minutes
+
+  - name: stg_expanded_flask_preparation
+    description: "Staging model for processing flask preparation data."
+    columns:
+      - name: flask_id
+        tests:
+          - not_null
+      - name: stage
+      - name: process
+      - name: chemicals_used
+      - name: first_arrival_time
+      - name: last_departure_time
+      - name: total_estimated_time
+      - name: total_duration_minutes
+
+  - name: stg_expanded_ladle_preparation
+    description: "Staging model for processing ladle preparation data."
+    columns:
+      - name: ladle_id
+        tests:
+          - not_null
+      - name: melt_id
+      - name: stage
+      - name: process
+      - name: chemicals_used
+      - name: first_arrival_time
+      - name: last_departure_time
+      - name: total_estimated_time
+      - name: total_duration_minutes
+
+  - name: stg_expanded_pouring_process
+    description: "Staging model for processing pouring process data."
+    columns:
+      - name: pouring_id
+        tests:
+          - not_null
+      - name: assembly_id
+      - name: ladle_id
+      - name: melt_id
+      - name: process
+      - name: first_arrival_time
+      - name: last_departure_time
+      - name: total_estimated_time
+      - name: total_duration_minutes
+
+  - name: stg_expanded_transport_tracking
+    description: "Staging model for processing transport tracking data."
+    columns:
+      - name: equipment_id
+        tests:
+          - not_null
+      - name: equipment_type
+      - name: source_stage
+      - name: destination_stage
+      - name: transport_mechanism
+      - name: transport_start_time
+      - name: transport_end_time

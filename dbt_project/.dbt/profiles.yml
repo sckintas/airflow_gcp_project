@@ -1,0 +1,14 @@
+dbt_project:
+  outputs:
+    dev:
+      dataset: snow_gcp
+      job_execution_timeout_seconds: 300
+      job_retries: 1
+      keyfile: /home/airflow/gcs/data/access_account.json
+      location: US
+      method: service-account
+      priority: interactive
+      project: mystical-sweep-439114-m6
+      threads: 4
+      type: bigquery
+  target: dev

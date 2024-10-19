@@ -1,0 +1,4 @@
+access_account.json
+
+.cache/cloud-code/*
+.local/lib/python3.12/site-packages/pyarrow/*.so

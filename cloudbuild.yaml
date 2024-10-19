@@ -1,0 +1,49 @@
+steps:
+  # Step 1: Set up authentication with GCP using the service account key
+  - name: 'gcr.io/cloud-builders/gcloud'
+    entrypoint: 'bash'
+    args:
+      - '-c'
+      - |
+        echo $SERVICE_ACCOUNT_KEY | base64 -d > /workspace/sa-key.json
+        gcloud auth activate-service-account --key-file=/workspace/sa-key.json
+        gcloud config set project $PROJECT_ID
+
+  # Step 2: Install Python dependencies
+  - name: 'python:3.12'
+    entrypoint: 'bash'
+    args:
+      - '-c'
+      - |
+        pip install --upgrade pip
+        pip install -r requirements.txt
+
+  # Step 3: Deploy Airflow DAGs to Cloud Composer GCS bucket
+  - name: 'gcr.io/cloud-builders/gsutil'
+    args: ['-m', 'cp', '-r', 'dags/*', 'gs://<composer-bucket-name>/dags/']
+
+  # Step 4: Deploy the dbt project to GCS
+  - name: 'gcr.io/cloud-builders/gsutil'
+    args: ['-m', 'cp', '-r', 'dbt_project/*', 'gs://<composer-bucket-name>/data/dbt_project/']
+
+  # Step 5: Trigger the dbt models in Cloud Composer
+  - name: 'gcr.io/cloud-builders/gcloud'
+    args:
+      - 'composer'
+      - 'environments'
+      - 'run'
+      - '<your-composer-env-name>'
+      - '--location'
+      - 'us-central1'
+      - 'trigger_dag'
+      - '--'
+      - 'snowflake_to_gcs_and_bigquery_with_dbt'
+
+substitutions:
+  _PROJECT_ID: mystical-sweep-439114
+  _SERVICE_ACCOUNT_KEY: '<base64-encoded-service-account-json>'
+  _COMPOSER_BUCKET_NAME: 'us-central1-my-composer-env-1f9279c3-bucket'
+  _COMPOSER_ENV_NAME: 'my-composer-env'
+
+# Optional: Notification if the build fails
+timeout: 1200s
