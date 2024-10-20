@@ -11,3 +11,4 @@
 2024-10-20 09:03:54.305 [info] Discover tests for workspace name: mehmet_cengiz_etl - uri: /home/mehmet_cengiz_etl/etl_airflow/tests/test_verify_row_count_after_extract.py
 2024-10-20 09:03:55.540 [info] Discover tests for workspace name: mehmet_cengiz_etl - uri: /home/mehmet_cengiz_etl/etl_airflow/tests/test_verify_row_count_after_extract.py
 2024-10-20 09:04:16.609 [info] Discover tests for workspace name: mehmet_cengiz_etl - uri: /home/mehmet_cengiz_etl/etl_airflow/tests/test_create_bigquery_tables.py
+2024-10-20 09:53:41.133 [info] Discover tests for workspace name: mehmet_cengiz_etl - uri: /home/mehmet_cengiz_etl/etl_airflow/dags/snowflake_to_gcs_and_bigquery_with_dbt.py
