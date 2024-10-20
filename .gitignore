@@ -1,4 +1,4 @@
-# Exclude specific sensitive JSON files
+# Exclude specific sensitive JSON files here
 access_account.json
 test-key-decoded.json
 
