@@ -13,3 +13,4 @@ credentials/
 .local/lib/python3.12/site-packages/pyarrow/*.so
 
 
+.bash_history
