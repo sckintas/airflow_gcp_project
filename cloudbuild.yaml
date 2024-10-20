@@ -14,7 +14,7 @@ steps:
         gcloud config set project mystical-sweep-439114-m6
     entrypoint: bash
 
-  # Run tests before deploying DAGS and dbt files
+  # Run tests before deploying DAGS and dbt files again
   - name: 'python:3.12'
     args:
       - '-c'
