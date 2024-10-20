@@ -1,11 +1,15 @@
-
+# Exclude specific sensitive JSON files
 access_account.json
 test-key-decoded.json
 
-*.json
-.env
+# General patterns
+.env  # Exclude environment files
 
+# Exclude credentials folder if it exists
 credentials/
 
+# Exclude Cloud Code and PyArrow files
 .cache/cloud-code/*
 .local/lib/python3.12/site-packages/pyarrow/*.so
+
+
