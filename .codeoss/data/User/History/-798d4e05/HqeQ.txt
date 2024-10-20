@@ -1,0 +1,11 @@
+apache-airflow 
+apache-airflow-providers-google  
+apache-airflow-providers-snowflake 
+dbt-core 
+dbt-bigquery 
+google-cloud-storage 
+google-cloud-bigquery 
+pandas 
+pytest 
+requests 
+snowflake-connector-python 
