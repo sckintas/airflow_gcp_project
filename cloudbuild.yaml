@@ -13,6 +13,18 @@ steps:
 
         gcloud config set project mystical-sweep-439114-m6
     entrypoint: bash
+
+  # Run tests before deploying DAGS and dbt files
+  - name: 'python:3.12'
+    args:
+      - '-c'
+      - |
+        pip install --upgrade pip
+        pip install pytest
+        pip install -r requirements.txt
+        pytest /home/mehmet_cengiz_etl/etl_airflow/tests
+    entrypoint: bash
+
   - name: 'python:3.12'
     args:
       - '-c'
@@ -20,6 +32,7 @@ steps:
         pip install --upgrade pip
         pip install -r requirements.txt
     entrypoint: bash
+
   - name: gcr.io/cloud-builders/gsutil
     args:
       - '-m'
@@ -27,6 +40,7 @@ steps:
       - '-r'
       - etl_airflow/dags/*
       - 'gs://us-central1-my-composer-env-1f9279c3-bucket/dags/'
+
   - name: gcr.io/cloud-builders/gsutil
     args:
       - '-m'
@@ -34,6 +48,7 @@ steps:
       - '-r'
       - dbt_project/*
       - 'gs://us-central1-my-composer-env-1f9279c3-bucket/data/dbt_project/'
+
   - name: gcr.io/cloud-builders/gcloud
     args:
       - '-c'
