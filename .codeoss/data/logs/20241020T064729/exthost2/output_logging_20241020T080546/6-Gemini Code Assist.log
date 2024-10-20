@@ -1,0 +1,56 @@
+I1020 08:06:16.233930   12681 serve.go:43] cloudcode_cli (Oct  3 2024 12:15:22 -0700, cl:681976930 baseline:658140038)
+I1020 08:06:16.238175   12681 serve.go:44] Command line: ["/home/mehmet_cengiz_etl/.cache/cloud-code/cloudcode_cli/cloudcode_cli/linux_amd64/cloudcode_cli" "duet" "-logtostderr"]
+I1020 08:06:16.241982   12681 life_cycle.go:166] Initializing. Architecture: "amd64", Operating system: "linux"
+I1020 08:06:16.348121   12681 handler.go:142] cancel was requested for: 1, needs to be canceled: true
+I1020 08:06:16.350917   12681 configuration.go:172] product updateChannel will be used
+I1020 08:06:16.350972   12681 configuration.go:569] language thresholds: map[]
+I1020 08:06:16.350997   12681 configuration.go:527] dataFileExtensions array: [.csv .tsv .jsonl]
+I1020 08:06:16.351025   12681 configuration.go:769] atlas codeCompletion llm options: {MaxTokens:64 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc0013636f9 StopSequences:map[] DataFilePromptLines:0}
+I1020 08:06:16.351086   12681 configuration.go:769] atlas codeGeneration llm options: {MaxTokens:512 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc001363749 StopSequences:map[*:[[eod] [EOF] [pre] [suf] [mid]]] DataFilePromptLines:5}
+I1020 08:06:16.352103   12681 configuration.go:252] Configured settings for atlasOpts: {"Project":"","LogPrompt":true,"UseTypeoverCache":true,"Complete":{"MaxTokens":64,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":null,"DataFilePromptLines":0},"Generate":{"MaxTokens":512,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":{"*":["[eod]","[EOF]","[pre]","[suf]","[mid]"]},"DataFilePromptLines":5},"DataFileExtensions":[".csv",".tsv",".jsonl"]}
+I1020 08:06:16.352151   12681 configuration.go:260] Configured settings for cloudCodeOpts: {"Project":"","LogPrompt":true,"UseTypeoverCache":true}
+I1020 08:06:16.352163   12681 configuration.go:264] Configured settings for opts: &{trace:false atlasAddr:cloudaicompanion.googleapis.com:443 cloudCodeAddr:cloudcode-pa.googleapis.com:443 cloudCodeQuotaProject: autoGen:false invokeGen:true codeCacheMaxEntries:1024 completionOpts:{debounce:50000000 throttle:100000000 minScoreThreshold:-6 languageThresholds:map[] enableThresholds:true commentCompletion:false citationLengthThreshold:-1 enableRecitations:true citationLogFilePath: repeatedStringFilterThreshold:60 deletionCompletion:true otherFilesGenerationLimit:20 otherFilesGenerationSizeLimit:-1 otherFilesCompletionLimit:0} chatOpts:{contextOrdering:fsu maxFileBytes:75000 maxHistoryBytes:500000 escapeContext:false otherFilesLimit:20 otherFilesSizeLimit:-1} useRest:<nil> useCloudCodeAPI:true enableNotebooks:false enableRAGL:false enableRAGLCompletion:false enableRAGLChat:false raglCoLocated:20 raglTotalFiles:250 raglFileLimit:524288}
+I1020 08:06:16.352224   12681 configuration.go:266] Configured settings for canCancelRequests: true
+I1020 08:06:16.352242   12681 configuration.go:268] Configured settings for contextPromptOpts: &{Endpoint:}
+I1020 08:06:17.258653   12681 handler.go:129] req #1 skipped: context canceled
+[Error - 8:06:20 AM] Server process exited with code 0.
+I1020 08:06:20.722113   12705 serve.go:43] cloudcode_cli (Oct  3 2024 12:15:22 -0700, cl:681976930 baseline:658140038)
+I1020 08:06:20.722155   12705 serve.go:44] Command line: ["/home/mehmet_cengiz_etl/.cache/cloud-code/cloudcode_cli/cloudcode_cli/linux_amd64/cloudcode_cli" "duet" "-logtostderr"]
+I1020 08:06:20.724952   12705 life_cycle.go:166] Initializing. Architecture: "amd64", Operating system: "linux"
+I1020 08:06:20.840537   12705 handler.go:142] cancel was requested for: 1, needs to be canceled: true
+I1020 08:06:20.845147   12705 configuration.go:172] product updateChannel will be used
+I1020 08:06:20.845194   12705 configuration.go:569] language thresholds: map[]
+I1020 08:06:20.845218   12705 configuration.go:527] dataFileExtensions array: [.csv .tsv .jsonl]
+I1020 08:06:20.845243   12705 configuration.go:769] atlas codeCompletion llm options: {MaxTokens:64 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc0008a9479 StopSequences:map[] DataFilePromptLines:0}
+I1020 08:06:20.845287   12705 configuration.go:769] atlas codeGeneration llm options: {MaxTokens:512 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc0008a94c9 StopSequences:map[*:[[eod] [EOF] [pre] [suf] [mid]]] DataFilePromptLines:5}
+I1020 08:06:20.845505   12705 configuration.go:252] Configured settings for atlasOpts: {"Project":"","LogPrompt":true,"UseTypeoverCache":true,"Complete":{"MaxTokens":64,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":null,"DataFilePromptLines":0},"Generate":{"MaxTokens":512,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":{"*":["[eod]","[EOF]","[pre]","[suf]","[mid]"]},"DataFilePromptLines":5},"DataFileExtensions":[".csv",".tsv",".jsonl"]}
+I1020 08:06:20.845544   12705 configuration.go:260] Configured settings for cloudCodeOpts: {"Project":"","LogPrompt":true,"UseTypeoverCache":true}
+I1020 08:06:20.845557   12705 configuration.go:264] Configured settings for opts: &{trace:false atlasAddr:cloudaicompanion.googleapis.com:443 cloudCodeAddr:cloudcode-pa.googleapis.com:443 cloudCodeQuotaProject: autoGen:false invokeGen:true codeCacheMaxEntries:1024 completionOpts:{debounce:50000000 throttle:100000000 minScoreThreshold:-6 languageThresholds:map[] enableThresholds:true commentCompletion:false citationLengthThreshold:-1 enableRecitations:true citationLogFilePath: repeatedStringFilterThreshold:60 deletionCompletion:true otherFilesGenerationLimit:20 otherFilesGenerationSizeLimit:-1 otherFilesCompletionLimit:0} chatOpts:{contextOrdering:fsu maxFileBytes:75000 maxHistoryBytes:500000 escapeContext:false otherFilesLimit:20 otherFilesSizeLimit:-1} useRest:<nil> useCloudCodeAPI:true enableNotebooks:false enableRAGL:false enableRAGLCompletion:false enableRAGLChat:false raglCoLocated:20 raglTotalFiles:250 raglFileLimit:524288}
+I1020 08:06:20.845598   12705 configuration.go:266] Configured settings for canCancelRequests: true
+I1020 08:06:20.845610   12705 configuration.go:268] Configured settings for contextPromptOpts: &{Endpoint:}
+I1020 08:06:20.849864   12705 handler.go:129] req #1 skipped: context canceled
+[Error - 8:06:24 AM] Server process exited with code 0.
+I1020 08:06:24.330790   12730 serve.go:43] cloudcode_cli (Oct  3 2024 12:15:22 -0700, cl:681976930 baseline:658140038)
+I1020 08:06:24.330838   12730 serve.go:44] Command line: ["/home/mehmet_cengiz_etl/.cache/cloud-code/cloudcode_cli/cloudcode_cli/linux_amd64/cloudcode_cli" "duet" "-logtostderr"]
+I1020 08:06:24.333144   12730 life_cycle.go:166] Initializing. Architecture: "amd64", Operating system: "linux"
+I1020 08:06:24.756038   12730 configuration.go:172] product updateChannel will be used
+I1020 08:06:24.756080   12730 configuration.go:569] language thresholds: map[]
+I1020 08:06:24.756101   12730 configuration.go:527] dataFileExtensions array: [.csv .tsv .jsonl]
+I1020 08:06:24.756124   12730 configuration.go:769] atlas codeCompletion llm options: {MaxTokens:64 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc0011d3129 StopSequences:map[] DataFilePromptLines:0}
+I1020 08:06:24.756164   12730 configuration.go:769] atlas codeGeneration llm options: {MaxTokens:512 Temp:0.2 Samples:4 EnablePrompt:<nil> PromptOverride: PostProcess:0xc0011d3179 StopSequences:map[*:[[eod] [EOF] [pre] [suf] [mid]]] DataFilePromptLines:5}
+I1020 08:06:24.756355   12730 configuration.go:252] Configured settings for atlasOpts: {"Project":"","LogPrompt":true,"UseTypeoverCache":true,"Complete":{"MaxTokens":64,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":null,"DataFilePromptLines":0},"Generate":{"MaxTokens":512,"Temp":0.2,"Samples":4,"EnablePrompt":null,"PromptOverride":"","PostProcess":true,"StopSequences":{"*":["[eod]","[EOF]","[pre]","[suf]","[mid]"]},"DataFilePromptLines":5},"DataFileExtensions":[".csv",".tsv",".jsonl"]}
+I1020 08:06:24.756386   12730 configuration.go:260] Configured settings for cloudCodeOpts: {"Project":"","LogPrompt":true,"UseTypeoverCache":true}
+I1020 08:06:24.756396   12730 configuration.go:264] Configured settings for opts: &{trace:false atlasAddr:cloudaicompanion.googleapis.com:443 cloudCodeAddr:cloudcode-pa.googleapis.com:443 cloudCodeQuotaProject: autoGen:false invokeGen:true codeCacheMaxEntries:1024 completionOpts:{debounce:50000000 throttle:100000000 minScoreThreshold:-6 languageThresholds:map[] enableThresholds:true commentCompletion:false citationLengthThreshold:-1 enableRecitations:true citationLogFilePath: repeatedStringFilterThreshold:60 deletionCompletion:true otherFilesGenerationLimit:20 otherFilesGenerationSizeLimit:-1 otherFilesCompletionLimit:0} chatOpts:{contextOrdering:fsu maxFileBytes:75000 maxHistoryBytes:500000 escapeContext:false otherFilesLimit:20 otherFilesSizeLimit:-1} useRest:<nil> useCloudCodeAPI:true enableNotebooks:false enableRAGL:false enableRAGLCompletion:false enableRAGLChat:false raglCoLocated:20 raglTotalFiles:250 raglFileLimit:524288}
+I1020 08:06:24.756429   12730 configuration.go:266] Configured settings for canCancelRequests: true
+I1020 08:06:24.756439   12730 configuration.go:268] Configured settings for contextPromptOpts: &{Endpoint:}
+I1020 08:06:25.342502   12730 handler.go:142] cancel was requested for: 1, needs to be canceled: false
+I1020 08:06:25.342521   12730 handler.go:146] cancel requested for 1 but not found
+Completion Provider - completion # 0 - New completion requested from language client at position {"line":0,"character":0}, triggerKind=1
+Completion Provider - completion # 0 - Completion result obtained from language client
+Completion Provider - completion # 1 - New completion requested from language client at position {"line":21,"character":0}, triggerKind=1
+Completion Provider - completion # 1 - Completion result obtained from language client
+Completion Provider - completion # 2 - New completion requested from language client at position {"line":0,"character":0}, triggerKind=1
+Completion Provider - completion # 2 - Completion result obtained from language client
+Completion Provider - completion # 3 - New completion requested from language client at position {"line":21,"character":0}, triggerKind=1
+Completion Provider - completion # 3 - Completion result obtained from language client
+I1020 09:06:24.764564   12730 life_cycle.go:258] codeReportBasicEvery: recomputing codereportbasic metric

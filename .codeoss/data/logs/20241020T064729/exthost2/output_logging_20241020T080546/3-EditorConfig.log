@@ -1,0 +1,46 @@
+Initializing document watcher...
+Document watcher initialized
+mehmet_cengiz_etl/cloudbuild.yaml: {}
+mehmet_cengiz_etl/cloudbuild.yaml: {}
+mehmet_cengiz_etl/cloudbuild.yaml: {}
+mehmet_cengiz_etl/cloudbuild.yaml: {}
+mehmet_cengiz_etl/cloudbuild.yaml: {}
+mehmet_cengiz_etl/cloudbuild.yaml: {}
+mehmet_cengiz_etl/cloudbuild.yaml: {}
+mehmet_cengiz_etl/etl_airflow/tests/test_dag_import.py: {}
+mehmet_cengiz_etl/etl_airflow/tests/test_dag_structure.py: {}
+mehmet_cengiz_etl/etl_airflow/tests/test_dag_structure.py: {}
+mehmet_cengiz_etl/etl_airflow/tests/test_dbt_models.py: {}
+mehmet_cengiz_etl/etl_airflow/tests/test_task_functions.py: {}
+mehmet_cengiz_etl/etl_airflow/tests/test_task_functions.py: {}
+mehmet_cengiz_etl/etl_airflow/tests/test_dag_structure.py: {}
+mehmet_cengiz_etl/etl_airflow/tests/test_dag_structure.py: Using EditorConfig core...
+mehmet_cengiz_etl/etl_airflow/tests/test_dag_structure.py: {}
+mehmet_cengiz_etl/etl_airflow/tests/test_task_functions.py: {}
+mehmet_cengiz_etl/etl_airflow/tests/test_task_functions.py: Using EditorConfig core...
+mehmet_cengiz_etl/etl_airflow/tests/test_task_functions.py: Using EditorConfig core...
+mehmet_cengiz_etl/etl_airflow/tests/test_task_functions.py: {}
+mehmet_cengiz_etl/etl_airflow/tests/test_task_functions.py: {}
+mehmet_cengiz_etl/etl_airflow/tests/test_task_functions.py: {}
+mehmet_cengiz_etl/etl_airflow/tests/test_task_functions.py: {}
+mehmet_cengiz_etl/etl_airflow/tests/test_task_functions.py: {}
+mehmet_cengiz_etl/etl_airflow/tests/test_task_functions.py: {}
+mehmet_cengiz_etl/etl_airflow/tests/test_dag_structure.py: {}
+mehmet_cengiz_etl/etl_airflow/tests/test_extract_and_upload_to_gcs.py: {}
+mehmet_cengiz_etl/etl_airflow/tests/test_extract_and_upload_to_gcs.py: {}
+mehmet_cengiz_etl/etl_airflow/tests/test_extract_and_upload_to_gcs.py: Using EditorConfig core...
+mehmet_cengiz_etl/etl_airflow/tests/test_extract_and_upload_to_gcs.py: Using EditorConfig core...
+mehmet_cengiz_etl/etl_airflow/tests/test_extract_and_upload_to_gcs.py: {}
+mehmet_cengiz_etl/etl_airflow/tests/test_task_functions.py: {}
+mehmet_cengiz_etl/etl_airflow/tests/test_verify_row_count_after_extract.py: {}
+mehmet_cengiz_etl/etl_airflow/tests/test_verify_row_count_after_extract.py: {}
+mehmet_cengiz_etl/etl_airflow/tests/test_verify_row_count_after_extract.py: Using EditorConfig core...
+mehmet_cengiz_etl/etl_airflow/tests/test_verify_row_count_after_extract.py: Using EditorConfig core...
+mehmet_cengiz_etl/etl_airflow/tests/test_verify_row_count_after_extract.py: {}
+mehmet_cengiz_etl/etl_airflow/tests/test_create_bigquery_tables.py: {}
+mehmet_cengiz_etl/etl_airflow/tests/test_create_bigquery_tables.py: {}
+mehmet_cengiz_etl/etl_airflow/tests/test_create_bigquery_tables.py: Using EditorConfig core...
+mehmet_cengiz_etl/etl_airflow/tests/test_create_bigquery_tables.py: Using EditorConfig core...
+mehmet_cengiz_etl/etl_airflow/tests/test_create_bigquery_tables.py: {}
+mehmet_cengiz_etl/etl_airflow/tests/test_create_bigquery_tables.py: {}
+mehmet_cengiz_etl/etl_airflow/tests/test_create_bigquery_tables.py: {}

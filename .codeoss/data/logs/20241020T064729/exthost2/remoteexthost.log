@@ -1,0 +1,20 @@
+2024-10-20 08:05:46.700 [info] Extension host with pid 11022 started
+2024-10-20 08:05:46.700 [error] Error: EEXIST: file already exists, open '/home/mehmet_cengiz_etl/.codeoss/data/User/workspaceStorage/a748d06/vscode.lock'
+2024-10-20 08:05:46.706 [info] Lock '/home/mehmet_cengiz_etl/.codeoss/data/User/workspaceStorage/a748d06/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-10-20 08:05:46.712 [info] Lock '/home/mehmet_cengiz_etl/.codeoss/data/User/workspaceStorage/a748d06/vscode.lock': The lock does not look stale, elapsed: 788 ms, giving up.
+2024-10-20 08:05:46.728 [info] Lock '/home/mehmet_cengiz_etl/.codeoss/data/User/workspaceStorage/a748d06-1/vscode.lock': Lock acquired.
+2024-10-20 08:05:46.832 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-10-20 08:05:46.918 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-10-20 08:05:46.935 [info] ExtensionService#_doActivateExtension ms-python.python, startup: true, activationEvent: 'workspaceContains:requirements.txt'
+2024-10-20 08:05:47.313 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-10-20 08:05:47.315 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-10-20 08:05:47.544 [info] ExtensionService#_doActivateExtension redhat.fabric8-analytics, startup: true, activationEvent: 'workspaceContains:**/package.json,**/pom.xml,**/go.mod,**/requirements.txt'
+2024-10-20 08:05:48.056 [info] Eager extensions activated
+2024-10-20 08:05:48.057 [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: false, activationEvent: 'onStartupFinished'
+2024-10-20 08:05:48.059 [info] ExtensionService#_doActivateExtension google.cloud-shell, startup: false, activationEvent: 'onStartupFinished'
+2024-10-20 08:05:48.060 [info] ExtensionService#_doActivateExtension googlecloudtools.cloudcode, startup: false, activationEvent: 'onStartupFinished'
+2024-10-20 08:05:48.061 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-10-20 08:05:48.063 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-10-20 08:05:51.875 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-10-20 08:05:51.876 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-10-20 08:05:52.812 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'

@@ -1,0 +1,6 @@
+2024-10-20 06:47:37.592 [info] Default formatter is set to null for workspace /home/mehmet_cengiz_etl
+2024-10-20 06:47:37.593 [info] Test server listening.
+2024-10-20 06:47:37.593 [info] Python interpreter path: /bin/python
+2024-10-20 06:47:44.088 [info] > pyenv which python
+2024-10-20 06:47:44.088 [info] cwd: .
+2024-10-20 06:47:48.147 [info] Starting Jedi language server for mehmet_cengiz_etl.

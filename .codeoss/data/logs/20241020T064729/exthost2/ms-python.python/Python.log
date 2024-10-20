@@ -1,0 +1,13 @@
+2024-10-20 08:05:51.523 [info] Default formatter is set to null for workspace /home/mehmet_cengiz_etl
+2024-10-20 08:05:51.523 [info] Test server listening.
+2024-10-20 08:05:51.523 [info] Python interpreter path: /bin/python
+2024-10-20 08:05:52.365 [info] > pyenv which python
+2024-10-20 08:05:52.366 [info] cwd: .
+2024-10-20 08:05:58.669 [info] Starting Jedi language server for mehmet_cengiz_etl.
+2024-10-20 08:59:10.183 [info] Discover tests for workspace name: mehmet_cengiz_etl - uri: /home/mehmet_cengiz_etl/etl_airflow/tests/test_dag_structure.py
+2024-10-20 08:59:21.997 [info] Discover tests for workspace name: mehmet_cengiz_etl - uri: /home/mehmet_cengiz_etl/etl_airflow/tests/test_task_functions.py
+2024-10-20 09:03:32.619 [info] Discover tests for workspace name: mehmet_cengiz_etl - uri: /home/mehmet_cengiz_etl/etl_airflow/tests/test_extract_and_upload_to_gcs.py
+2024-10-20 09:03:32.918 [info] Discover tests for workspace name: mehmet_cengiz_etl - uri: /home/mehmet_cengiz_etl/etl_airflow/tests/test_extract_and_upload_to_gcs.py
+2024-10-20 09:03:54.305 [info] Discover tests for workspace name: mehmet_cengiz_etl - uri: /home/mehmet_cengiz_etl/etl_airflow/tests/test_verify_row_count_after_extract.py
+2024-10-20 09:03:55.540 [info] Discover tests for workspace name: mehmet_cengiz_etl - uri: /home/mehmet_cengiz_etl/etl_airflow/tests/test_verify_row_count_after_extract.py
+2024-10-20 09:04:16.609 [info] Discover tests for workspace name: mehmet_cengiz_etl - uri: /home/mehmet_cengiz_etl/etl_airflow/tests/test_create_bigquery_tables.py
