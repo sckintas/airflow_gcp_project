@@ -22,6 +22,7 @@ steps:
         pip install --upgrade pip
         pip install pytest
         pip install -r requirements.txt
+        export PYTHONPATH=/workspace
         pytest /workspace/etl_airflow/tests
     entrypoint: bash
 
