@@ -1,0 +1,38 @@
+2024-10-20 18:43:08.793 [info] Log level: Info
+2024-10-20 18:43:08.793 [info] Validating found git in: "git"
+2024-10-20 18:43:08.793 [info] Using git "2.43.0" from "git"
+2024-10-20 18:43:08.793 [info] > git rev-parse --show-toplevel [24ms]
+2024-10-20 18:43:08.793 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-10-20 18:43:08.793 [info] Open repository: /home/mehmet_cengiz_etl
+2024-10-20 18:43:08.793 [info] > git config --get commit.template [115ms]
+2024-10-20 18:43:08.793 [info] > git rev-parse --show-toplevel [120ms]
+2024-10-20 18:43:08.793 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [16ms]
+2024-10-20 18:43:08.793 [info] > git rev-parse --show-toplevel [311ms]
+2024-10-20 18:43:08.793 [info] > git status -z -uall [311ms]
+2024-10-20 18:43:08.793 [info] > git rev-parse --show-toplevel [2961ms]
+2024-10-20 18:43:08.877 [info] > git check-ignore -v -z --stdin [85ms]
+2024-10-20 18:43:08.879 [info] > git config --get commit.template [3093ms]
+2024-10-20 18:43:08.881 [info] > git rev-parse --show-toplevel [66ms]
+2024-10-20 18:43:08.943 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [43ms]
+2024-10-20 18:43:08.988 [info] > git rev-parse --show-toplevel [69ms]
+2024-10-20 18:43:09.016 [info] > git status -z -uall [52ms]
+2024-10-20 18:43:09.072 [info] > git rev-parse --show-toplevel [57ms]
+2024-10-20 18:43:09.356 [info] > git rev-parse --show-toplevel [237ms]
+2024-10-20 18:43:09.461 [info] > git rev-parse --show-toplevel [75ms]
+2024-10-20 18:43:09.484 [info] > git rev-parse --show-toplevel [3ms]
+2024-10-20 18:43:09.532 [info] > git rev-parse --show-toplevel [28ms]
+2024-10-20 18:43:09.615 [info] > git rev-parse --show-toplevel [37ms]
+2024-10-20 18:43:09.648 [info] > git rev-parse --show-toplevel [6ms]
+2024-10-20 18:43:09.679 [info] > git rev-parse --show-toplevel [4ms]
+2024-10-20 18:43:09.708 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2024-10-20 18:43:09.716 [info] Open repository: /home/mehmet_cengiz_etl/new_repo
+2024-10-20 18:43:09.780 [info] No remotes found in the git config file.
+2024-10-20 18:43:09.785 [info] > git config --get commit.template [41ms]
+2024-10-20 18:43:09.786 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2024-10-20 18:43:09.834 [info] > git status -z -uall [22ms]
+2024-10-20 18:43:09.862 [info] No remotes found in the git config file.
+2024-10-20 18:43:09.886 [info] > git config --get commit.template [26ms]
+2024-10-20 18:43:09.886 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-10-20 18:43:09.910 [info] > git status -z -uall [4ms]
+2024-10-20 18:43:10.336 [info] > git check-ignore -v -z --stdin [28ms]
+2024-10-20 18:43:10.338 [info] > git check-ignore -v -z --stdin [4ms]

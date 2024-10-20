@@ -1,0 +1,73 @@
+steps:
+  - name: gcr.io/cloud-builders/gcloud
+    args:
+      - '-c'
+      - >
+        set -e  # Exit immediately if a command exits with a non-zero status
+
+        echo
+        "ewogICJ0eXBlIjogInNlcnZpY2VfYWNjb3VudCIsCiAgInByb2plY3RfaWQiOiAibXlzdGljYWwtc3dlZXAtNDM5MTE0LW02IiwKICAicHJpdmF0ZV9rZXlfaWQiOiAiMzA1M2UwMDQxZDg0YTgwMjc3MTZhYjMzYWU1OWQ5OTc0OWI0OWMxMiIsCiAgInByaXZhdGVfa2V5IjogIi0tLS0tQkVHSU4gUFJJVkFURSBLRVktLS0tLVxuTUlJRXZnSUJBREFOQmdrcWhraUc5dzBCQVFFRkFBU0NCS2d3Z2dTa0FnRUFBb0lCQVFDdktUTXpSM1J1QklhSFxuWUhrakRrd1o4QWpZYzRvZXJKWjhVcUZ6di8ydzRrVGkyNi9KQzdxUURZdkdPVFlFbTB6eDlmL0hLVVJ4WUhnMFxudFZXY2tJTnVKKzUvUXd2RWRQMndTdzEva3A5YVljYTY0RjRkdGFpSlVxZGpGOXF3OFliM1NwMytESFF0WDdDYlxuQTlGaHlZMjlzVXZBcnlhRktja0JqMnhXcUFqbTZYOHg4bnBQc2x6YmJsSzk1b1VjS0pZM0NwSnJzN0M2b3RYeVxuaXJBTUFsY1BCNGRSTTZVZUMrM2tZVSt4ck9xNjNQQVcxMGNoUVRnd3lqVytaQ1REYzgweXVFcTk0YTFCbHByM1xuUFl3ZmMrb3JZN21jWC9hT1hiTk1uQUVKU3oxT2JoQm8zd25XMk5TZXhISVVRZHg3KzAxMFZlaE13NG1oR2wvb1xuT2huMEd5aUJBZ01CQUFFQ2dnRUFCQVJlM3pzeFNXQ2pNVEdlTlphYldqRHVFd0M3Vnk3QUdNUFFYaFkySER0a1xuTnd1d3dWeWFmN2svem1EN2d5bUluemYwRUw0Nmlwc2F4cUt0L3ZRMWYyNDlBd0Fub2U3STdxVVoveVgrcjVUMFxuZU02eWVkM3pxb3FSdWkwTzMrWDZJV3U5cWRqaFJUVWZtTDZDcThweWpMb25NWmtTdWhVV1BnbnJBeVhCWm9KRVxucVFKVXFkRndsby9HazRxME1ZYTdpYnJDUENFZnhJZ2w0S2REMGJiaEFNRTRqNThWcmZBN3hWdG5PRk9BK2E4TVxuY3VNaktxMkZLNG85TjRCZ3lRVHhVejdnM1V3Mm1VZGhGYnNXdGVyZjZZczl5aitlam1CaUFEdzlRWVk4aWxTUFxua3UwOEk2SUtRcEFsNk5yMnpqOVJrSmRta2wvajcycWVDVjlMZE1QalVRS0JnUURVQk10TVJQamNNM1NPcnVONFxuWG9JMzRmL1VacXNoNmdhUUVZTTJhM0JRYkdXbWVvUGtJVGt1ZHpKRzh6c1Z3VWs0NW9tcCtmQXdpOUwydUQyb1xuSEdNZDRJMk1UMEJFR3o4OGZUdWQ1NnBFR3VrRkNRcm9SU2ZIS2NCMThLaEcvVFAyN2xpaGpnSk5NcHllWkdqelxucGZsbEx2bjRvM1I3bmVlRDQ3aGY5cnQrbFFLQmdRRFRmeFRYSm5oZWE1NUcvRHB6YUgvZEpYaHdNeUZ4YURjSFxua3ROR1hOVURIdTZrT3JwdTR2TFJqUUZKMnNRTVRJV09Va1MvYTZ1clVVUWF5ZXlHK1l5Zm5uQTMyRGdxdWdTSFxuVmdvSDc2UGRoUFRGc2V2VDNXZVg0OHZLS0RrQ0pNRXZNb0o2aUNzekFpU3VOdS8yRmR2SlNYUHNvajhwWWZua1xudEx6YjM5bERQUUtCZ0VlUGRxNi9lTitaM25WcVFneVdtWTBURXE0MkdQelJhSFduODRtaXFiMzdXRFBnbGpPaFxub3hNejJCeHFiRDdqaGp0V1ZKQ3ljNGR2S2oxcjRpT2pzVENjWWlwQmRZZUhTc2kzM0M5bnllaEN6UE9PSWNoVFxuenlGQnpsd0Faa3ZQbW9KMTRDUm5NZytzVFlDSWs0UHBPVXdWbHZsODhndm5PQVVrRDA4VWtDUWhBb0dCQUtPdVxuRmxMc1V2dkFEaDZoMWhxN0pUbmhaZlJ2bmRKRzlVL0hNZnVpbkxodG1BTkI4RWNoSFF0UU5VOFRIK2JrMGZmelxuYzRFeHN3cERPcElBOUMwQnRQTlRpMFdzOE1zZ2E2RFIxYkdPcFNNcllzUWRqb1hKTkFNNUtONnJnbk5HUHJ4b1xuT3RMWno1VUtjNWpncTVXb0ZSRVM1OFNiVElhYWJPdXpkUFkxcDgrQkFvR0JBTkROUGVBNnNvYVZMQ1JDa1l1ZFxuM1FTYjFQNlFiTURzOHdyTDgvblI5dys3RnFsc1B2aVgzMU1LVy9QSDZFdEpybVM4dEVnL0FQWVlkcU9WNGFMMlxuZlBzSVhYUTRRUHBZalVtNzAwblF6NUpZZjRvcnFuWkdJRkpkOUJvOW94cUVPbEx0UWM3d0pva0hTSnFJdzMxeFxuTUswZnlxZEhUQkZnSkFmNis1dUVWZDZ1XG4tLS0tLUVORCBQUklWQVRFIEtFWS0tLS0tXG4iLAogICJjbGllbnRfZW1haWwiOiAiMTA5ODM0MTgzNjc5Ni1jb21wdXRlQGRldmVsb3Blci5nc2VydmljZWFjY291bnQuY29tIiwKICAiY2xpZW50X2lkIjogIjEwNTQ5NTg4ODk5NDU0MTYyNzU4NCIsCiAgImF1dGhfdXJpIjogImh0dHBzOi8vYWNjb3VudHMuZ29vZ2xlLmNvbS9vL29hdXRoMi9hdXRoIiwKICAidG9rZW5fdXJpIjogImh0dHBzOi8vb2F1dGgyLmdvb2dsZWFwaXMuY29tL3Rva2VuIiwKICAiYXV0aF9wcm92aWRlcl94NTA5X2NlcnRfdXJsIjogImh0dHBzOi8vd3d3Lmdvb2dsZWFwaXMuY29tL29hdXRoMi92MS9jZXJ0cyIsCiAgImNsaWVudF94NTA5X2NlcnRfdXJsIjogImh0dHBzOi8vd3d3Lmdvb2dsZWFwaXMuY29tL3JvYm90L3YxL21ldGFkYXRhL3g1MDkvMTA5ODM0MTgzNjc5Ni1jb21wdXRlJTQwZGV2ZWxvcGVyLmdzZXJ2aWNlYWNjb3VudC5jb20iLAogICJ1bml2ZXJzZV9kb21haW4iOiAiZ29vZ2xlYXBpcy5jb20iCn0K"
+        | base64 -d > /workspace/sa-key.json
+
+        gcloud auth activate-service-account --key-file=/workspace/sa-key.json
+
+        gcloud config set project mystical-sweep-439114-m6
+    entrypoint: bash
+
+  # Run tests before deploying DAGS and dbt files
+  - name: 'python:3.12'
+    args:
+      - '-c'
+      - |
+        pip install --upgrade pip
+        pip install pytest
+        pip install -r requirements.txt
+        pytest /workspace/etl_airflow/tests
+    entrypoint: bash
+
+  - name: 'python:3.12'
+    args:
+      - '-c'
+      - |
+        pip install --upgrade pip
+        pip install -r requirements.txt
+    entrypoint: bash
+
+  - name: gcr.io/cloud-builders/gsutil
+    args:
+      - '-m'
+      - cp
+      - '-r'
+      - etl_airflow/dags/*
+      - 'gs://us-central1-my-composer-env-1f9279c3-bucket/dags/'
+
+  - name: gcr.io/cloud-builders/gsutil
+    args:
+      - '-m'
+      - cp
+      - '-r'
+      - dbt_project/*
+      - 'gs://us-central1-my-composer-env-1f9279c3-bucket/data/dbt_project/'
+
+  - name: gcr.io/cloud-builders/gcloud
+    args:
+      - '-c'
+      - >
+        response=$(curl -s -o /dev/null -w "%{http_code}" -X POST
+        "https://cde25881594a44e1b368145ca12feb2f-dot-us-central1.composer.googleusercontent.com/api/v1/dags/snowflake_to_gcs_and_bigquery_with_dbt/dagRuns"
+        \
+          -H "Content-Type: application/json" \
+          -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+          -d '{"conf": {}}')
+        echo "Response code: $response"
+
+        if [ "$response" -ne 200 ]; then
+          echo "DAG trigger failed with response code: $response"
+          exit 1
+        else
+          echo "DAG triggered successfully."
+        fi
+    entrypoint: bash
+timeout: 1200s
+options:
+  logging: CLOUD_LOGGING_ONLY

@@ -1,0 +1,5 @@
+pandas
+snowflake-connector-python
+apache-airflow-providers-google
+apache-airflow-providers-snowflake
+dbt-bigquery

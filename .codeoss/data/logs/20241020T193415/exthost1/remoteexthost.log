@@ -1,0 +1,21 @@
+2024-10-20 19:34:21.179 [info] Extension host with pid 2611 started
+2024-10-20 19:34:21.179 [error] Error: EEXIST: file already exists, open '/home/mehmet_cengiz_etl/.codeoss/data/User/workspaceStorage/a748d06/vscode.lock'
+2024-10-20 19:34:21.202 [info] Lock '/home/mehmet_cengiz_etl/.codeoss/data/User/workspaceStorage/a748d06/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-10-20 19:34:21.204 [info] Lock '/home/mehmet_cengiz_etl/.codeoss/data/User/workspaceStorage/a748d06/vscode.lock': The pid 2607 appears to be gone.
+2024-10-20 19:34:21.204 [info] Lock '/home/mehmet_cengiz_etl/.codeoss/data/User/workspaceStorage/a748d06/vscode.lock': Deleting a stale lock.
+2024-10-20 19:34:21.211 [info] Lock '/home/mehmet_cengiz_etl/.codeoss/data/User/workspaceStorage/a748d06/vscode.lock': Lock acquired.
+2024-10-20 19:34:21.371 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-10-20 19:34:21.387 [info] ExtensionService#_doActivateExtension ms-python.python, startup: true, activationEvent: 'workspaceContains:requirements.txt'
+2024-10-20 19:34:21.745 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-10-20 19:34:21.745 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-10-20 19:34:22.472 [info] ExtensionService#_doActivateExtension redhat.fabric8-analytics, startup: true, activationEvent: 'workspaceContains:**/package.json,**/pom.xml,**/go.mod,**/requirements.txt'
+2024-10-20 19:34:22.846 [info] Eager extensions activated
+2024-10-20 19:34:22.847 [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: false, activationEvent: 'onStartupFinished'
+2024-10-20 19:34:22.848 [info] ExtensionService#_doActivateExtension google.cloud-shell, startup: false, activationEvent: 'onStartupFinished'
+2024-10-20 19:34:22.848 [info] ExtensionService#_doActivateExtension googlecloudtools.cloudcode, startup: false, activationEvent: 'onStartupFinished'
+2024-10-20 19:34:22.848 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-10-20 19:34:22.849 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-10-20 19:34:26.405 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-10-20 19:34:26.406 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-10-20 19:34:26.406 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-10-20 20:06:53.954 [info] Lock '/home/mehmet_cengiz_etl/.codeoss/data/User/workspaceStorage/a748d06/vscode.lock': The lock was lost unexpectedly.

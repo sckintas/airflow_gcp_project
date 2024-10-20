@@ -1,0 +1,13 @@
+pandas
+snowflake-connector-python
+apache-airflow-providers-google
+apache-airflow-providers-snowflake
+dbt-bigquery
+
+apache-airflow==2.5.0
+dbt-core 
+dbt-bigquery 
+google-cloud-storage 
+google-cloud-bigquery 
+pytest==8.3.3
+requests==2.31.0
