@@ -45,3 +45,35 @@
 2024-10-20 19:53:58.619 [info] > python /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py ./requirements.txt
 2024-10-20 20:00:44.559 [info] Discover tests for workspace name: mehmet_cengiz_etl - uri: /home/mehmet_cengiz_etl/run_pipeline.py
 2024-10-20 20:00:48.149 [info] Discover tests for workspace name: mehmet_cengiz_etl - uri: /home/mehmet_cengiz_etl/run_pipeline.py
+2024-10-20 20:28:05.621 [info] Running installed packages checker:  python /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py /home/mehmet_cengiz_etl/requirements.txt
+2024-10-20 20:28:05.622 [info] > python /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py ./requirements.txt
+2024-10-20 20:29:46.963 [info] Running installed packages checker:  python /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py /home/mehmet_cengiz_etl/requirements.txt
+2024-10-20 20:29:46.964 [info] > python /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py ./requirements.txt
+2024-10-20 20:29:48.429 [info] Running installed packages checker:  python /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py /home/mehmet_cengiz_etl/requirements.txt
+2024-10-20 20:29:48.429 [info] > python /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py ./requirements.txt
+2024-10-20 20:29:50.300 [info] Running installed packages checker:  python /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py /home/mehmet_cengiz_etl/requirements.txt
+2024-10-20 20:29:50.300 [info] > python /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py ./requirements.txt
+2024-10-20 20:29:52.704 [info] Running installed packages checker:  python /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py /home/mehmet_cengiz_etl/requirements.txt
+2024-10-20 20:29:52.704 [info] > python /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py ./requirements.txt
+2024-10-20 20:29:55.768 [info] Running installed packages checker:  python /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py /home/mehmet_cengiz_etl/requirements.txt
+2024-10-20 20:29:55.769 [info] > python /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py ./requirements.txt
+2024-10-20 20:29:58.996 [info] Running installed packages checker:  python /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py /home/mehmet_cengiz_etl/requirements.txt
+2024-10-20 20:29:58.996 [info] > python /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py ./requirements.txt
+2024-10-20 20:30:02.793 [info] Running installed packages checker:  python /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py /home/mehmet_cengiz_etl/requirements.txt
+2024-10-20 20:30:02.793 [info] > python /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py ./requirements.txt
+2024-10-20 20:30:04.461 [info] Running installed packages checker:  python /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py /home/mehmet_cengiz_etl/requirements.txt
+2024-10-20 20:30:04.461 [info] > python /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py ./requirements.txt
+2024-10-20 20:30:06.142 [info] Running installed packages checker:  python /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py /home/mehmet_cengiz_etl/requirements.txt
+2024-10-20 20:30:06.142 [info] > python /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py ./requirements.txt
+2024-10-20 20:30:09.076 [info] Running installed packages checker:  python /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py /home/mehmet_cengiz_etl/requirements.txt
+2024-10-20 20:30:09.077 [info] > python /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py ./requirements.txt
+2024-10-20 20:30:11.025 [info] Running installed packages checker:  python /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py /home/mehmet_cengiz_etl/requirements.txt
+2024-10-20 20:30:11.025 [info] > python /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py ./requirements.txt
+2024-10-20 20:30:12.747 [info] Running installed packages checker:  python /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py /home/mehmet_cengiz_etl/requirements.txt
+2024-10-20 20:30:12.747 [info] > python /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py ./requirements.txt
+2024-10-20 20:30:14.226 [info] Running installed packages checker:  python /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py /home/mehmet_cengiz_etl/requirements.txt
+2024-10-20 20:30:14.226 [info] > python /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py ./requirements.txt
+2024-10-20 20:30:15.944 [info] Running installed packages checker:  python /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py /home/mehmet_cengiz_etl/requirements.txt
+2024-10-20 20:30:15.944 [info] > python /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py ./requirements.txt
+2024-10-20 20:30:17.274 [info] Running installed packages checker:  python /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py /home/mehmet_cengiz_etl/requirements.txt
+2024-10-20 20:30:17.274 [info] > python /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py ./requirements.txt

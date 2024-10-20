@@ -12,3 +12,39 @@
 		                         either install it ( better to install requirements.txt altogether) or turn on
 		                         environment variable EXHORT_PYTHON_VIRTUAL_ENV=true to automatically installs
 		                          it on virtual environment ( will slow down the analysis) 
+[Warn  - 8:11:05 PM] Component Analysis Error: Error: Package name=>apache-airflow is not installed on your python environment,
+		                         either install it ( better to install requirements.txt altogether) or turn on
+		                         environment variable EXHORT_PYTHON_VIRTUAL_ENV=true to automatically installs
+		                          it on virtual environment ( will slow down the analysis) 
+[Warn  - 8:14:09 PM] Component Analysis Error: Error: Package name=>apache-airflow is not installed on your python environment,
+		                         either install it ( better to install requirements.txt altogether) or turn on
+		                         environment variable EXHORT_PYTHON_VIRTUAL_ENV=true to automatically installs
+		                          it on virtual environment ( will slow down the analysis) 
+[Warn  - 8:17:13 PM] Component Analysis Error: Error: Package name=>apache-airflow is not installed on your python environment,
+		                         either install it ( better to install requirements.txt altogether) or turn on
+		                         environment variable EXHORT_PYTHON_VIRTUAL_ENV=true to automatically installs
+		                          it on virtual environment ( will slow down the analysis) 
+[Warn  - 8:20:14 PM] Component Analysis Error: Error: Package name=>apache-airflow is not installed on your python environment,
+		                         either install it ( better to install requirements.txt altogether) or turn on
+		                         environment variable EXHORT_PYTHON_VIRTUAL_ENV=true to automatically installs
+		                          it on virtual environment ( will slow down the analysis) 
+[Warn  - 8:23:43 PM] Component Analysis Error: Error: Package name=>apache-airflow is not installed on your python environment,
+		                         either install it ( better to install requirements.txt altogether) or turn on
+		                         environment variable EXHORT_PYTHON_VIRTUAL_ENV=true to automatically installs
+		                          it on virtual environment ( will slow down the analysis) 
+[Warn  - 8:26:59 PM] Component Analysis Error: Error: Package name=>apache-airflow is not installed on your python environment,
+		                         either install it ( better to install requirements.txt altogether) or turn on
+		                         environment variable EXHORT_PYTHON_VIRTUAL_ENV=true to automatically installs
+		                          it on virtual environment ( will slow down the analysis) 
+[Warn  - 8:30:04 PM] Component Analysis Error: Error: Package name=>apache-airflow is not installed on your python environment,
+		                         either install it ( better to install requirements.txt altogether) or turn on
+		                         environment variable EXHORT_PYTHON_VIRTUAL_ENV=true to automatically installs
+		                          it on virtual environment ( will slow down the analysis) 
+[Warn  - 8:33:21 PM] Component Analysis Error: Error: Package name=>apache-airflow is not installed on your python environment,
+		                         either install it ( better to install requirements.txt altogether) or turn on
+		                         environment variable EXHORT_PYTHON_VIRTUAL_ENV=true to automatically installs
+		                          it on virtual environment ( will slow down the analysis) 
+[Warn  - 8:36:24 PM] Component Analysis Error: Error: Package name=>apache-airflow is not installed on your python environment,
+		                         either install it ( better to install requirements.txt altogether) or turn on
+		                         environment variable EXHORT_PYTHON_VIRTUAL_ENV=true to automatically installs
+		                          it on virtual environment ( will slow down the analysis) 
