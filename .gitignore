@@ -1,4 +1,5 @@
 access_account.json
+test-key-decoded.json
 
 .cache/cloud-code/*
 .local/lib/python3.12/site-packages/pyarrow/*.so
