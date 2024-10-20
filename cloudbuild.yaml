@@ -16,8 +16,9 @@ steps:
     args:
       - '-c'
       - |
-        pip install --upgrade pip
-        pip install -r requirements.txt
+        set -x  # Enable debug mode
+        pip install --upgrade pip || { echo 'Pip upgrade failed'; exit 1; }
+        pip install -r requirements.txt || { echo 'Installing requirements failed'; exit 1; }
 
   # Step 3: Deploy Airflow DAGs to Cloud Composer GCS bucket
   - name: 'gcr.io/cloud-builders/gsutil'
