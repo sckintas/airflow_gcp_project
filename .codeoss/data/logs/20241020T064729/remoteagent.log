@@ -58,3 +58,5 @@
 2024-10-20 08:06:32.189 [warning] RequestStore#acceptReply was called without receiving a matching request 82
 2024-10-20 08:06:32.189 [warning] RequestStore#acceptReply was called without receiving a matching request 83
 2024-10-20 08:06:32.190 [warning] RequestStore#acceptReply was called without receiving a matching request 84
+2024-10-20 09:21:15.717 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-10-20 09:21:15.718 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
