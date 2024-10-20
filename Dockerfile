@@ -37,5 +37,5 @@ RUN git config --global user.email "sckintas@gmail.com" && \
     git config --global credential.helper store && \
     echo "https://${GITHUB_TOKEN}:x-oauth-basic@github.com" > /root/.git-credentials
 
-# Default command to run the Python script for the CI/CD pipeline
+# Default command to run the Python script for the CI/CD pipelines
 CMD ["python", "/app/run_pipeline.py"]
